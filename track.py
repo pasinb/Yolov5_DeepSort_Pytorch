@@ -275,3 +275,5 @@ if __name__ == '__main__':
 
     with torch.no_grad():
         detect(args)
+
+# python track.py --source 0 --show-vid --classes 0
